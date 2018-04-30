@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bell Bootstrap 4 Theme</title>
+    <title>Oasis || College of Technology</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -36,12 +36,6 @@
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-      Theme Name: Bell
-      Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
-      Author: BootstrapMade.com
-      Author URL: https://bootstrapmade.com
-    ======================================================= -->
   </head>
 
   <body>
@@ -53,19 +47,19 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-md-12">
-            <a class="hero-brand" href="index.html" title="Home"><img alt="Bell Logo" src="img/LOGO2.png"></a>
+            <a class="hero-brand" href="/" title="OCT"><img class="img-responsive" src="img/oct.png" width="300px"></a>
           </div>
         </div>
 
         <div class="col-md-12">
           <h1>
-            A theme with personality
+            Oasis College of Technology
           </h1>
 
           <p class="tagline">
-            This is a powerful theme with some great features that you can use in your future projects.
+            Transforming Lives
           </p>
-          <a class="btn btn-full" href="#about">Get Started Now</a>
+          <a class="btn btn-full" href="#about">Get Enrolled Today</a>
         </div>
       </div>
 
@@ -77,32 +71,23 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="index.html"><img src="img/logo-nav.png" alt="" title="" /></img></a>
-        <!-- Uncomment below if you prefer to use a text image -->
-        <!--<h1><a href="#hero">Bell</a></h1>-->
+        <a href="/"><img src="img/oct.png" width="60px" title="OCT" /></img></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li><a href="#about">About Us</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <li><a href="#features">Admission</a></li>
+          <li><a href="#portfolio">Courses</a></li>
+          <li><a href="#team">Apply Now</a></li>
+          <li class="menu-has-children"><a href="">Courses</a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
+              <li><a href="#">Department of ICT</a></li>
+              <li><a href="#">Department of Business</a></li>
+              <li><a href="#">Department of Hospitality</a></li>
+              <li><a href="#">Department Social Studies</a></li>
+              <li><a href="#">Department of Agriculture</a></li>
+              <li><a href="#">Department of Education</a></li>
             </ul>
           </li>
           <li><a href="#contact">Contact Us</a></li>
@@ -117,44 +102,7 @@
 
     <!-- About -->
 
-    <section class="about" id="about">
-      <div class="container text-center">
-        <h2>
-          About Bell Theme
-        </h2>
 
-        <p>
-          Voluptua scripserit per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. Menandri temporibus an duo.
-        </p>
-
-        <div class="row stats-row">
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">232</span> Satisfied Customers
-            </div>
-          </div>
-
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">79</span> Released Projects
-            </div>
-          </div>
-
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">1,463</span> Hours Of Support
-            </div>
-          </div>
-
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">15</span> Hard Workers
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /About -->
     <!-- Parallax -->
 
     <div class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/parallax-bg.jpg" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">

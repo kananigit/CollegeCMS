@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/about-us', function() {
+  return view('about');
+});
+
+Route::get('/admissions', function() {
+  return view('admin.index');
+});
+
+Route::get('/system/enroll-student', 'StudentCtrl@enroll');
+
+Route::post('/system/enroll-student', 'StudentCtrl@postEnroll');
