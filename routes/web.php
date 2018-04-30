@@ -26,3 +26,5 @@ Route::get('/admissions', function() {
 Route::get('/system/enroll-student', 'StudentCtrl@enroll');
 
 Route::post('/system/enroll-student', 'StudentCtrl@postEnroll');
+
+Route::get('/system/students/view', 'StudentCtrl@viewStudents');

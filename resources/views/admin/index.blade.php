@@ -124,8 +124,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="/schooladmin/students/enroll"><i class="fa fa-circle-o"></i> Enroll Student</a></li>
-            <li><a href="/schooladmin/students/view"><i class="fa fa-circle-o"></i> View Students</a></li>
+            <li><a href="/system/enroll-student"><i class="fa fa-circle-o"></i> Enroll Student</a></li>
+            <li><a href="/system/students/view"><i class="fa fa-circle-o"></i> View Students</a></li>
           </ul>
         </li>
 

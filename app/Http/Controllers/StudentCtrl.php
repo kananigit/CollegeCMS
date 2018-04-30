@@ -32,4 +32,10 @@ class StudentCtrl extends Controller
 
       return redirect()->back();
     }
+
+    public function viewStudents() {
+      $students = Student::all();
+
+      return view('admin.view-students')->with('students', $students);
+    }
 }
