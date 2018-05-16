@@ -1,4 +1,4 @@
-@extends('admin.index')
+@extends('backend.layouts.app')
 
 @section('content')
 

@@ -13,7 +13,7 @@
                 <th>Last Name</th>
                 <th> Gender</th>
                 <th> DOB</th>
-                <th> Email</th>
+                <th> Course</th>
                 <th> Naional ID</th>
                 <th> Phone</th>
                 <th> Address</th>
@@ -29,7 +29,7 @@
                   <td>{{$student->last_name}}</td>
                   <td>{{$student->gender}}</td>
                   <td>{{$student->dob}}</td>
-                  <td>{{$student->email}}</td>
+                  <td>{{$student->course}}</td>
                   <td>{{$student->national_id}}</td>
                   <td>{{$student->mobile}}</td>
                   <td>{{$student->postal_address}}</td>

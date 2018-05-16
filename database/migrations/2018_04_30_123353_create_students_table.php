@@ -14,10 +14,10 @@ class CreateStudentsTable extends Migration
             $table->string('first_name');
             $table->string('middle_name');
             $table->string('last_name');
-            $table->string('national_id');
+            $table->string('national_id')->unique();
             $table->string('gender');
             $table->string('dob');
-            $table->string('reg_no');
+            $table->string('reg_no')->unique();
             $table->string('course');
             $table->string('department');
             $table->string('email');
